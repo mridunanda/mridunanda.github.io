@@ -1,42 +1,6 @@
+theme: jekyll-theme-dinky
 title: mridunanda.github.io
-description: Mridu Nanda personal website and blog.
+description: Mridu Nanda's personal website and blog.
 
 email: mridu.nanda@gmail.com
 username: mridunanda
-
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-sass:
-    style: :compressed
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-
-timezone: America/New_York
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "blog"
-  -
-    scope:
-      path: "_posts/albums"
-      type: "posts"
-    values:
-      layout: "album"
-
-titles_from_headings:
-  collections: true
-  strip_title: true
-
-plugins:
-  - jekyll-titles-from-headings
-
-theme: jekyll-theme-dinky
