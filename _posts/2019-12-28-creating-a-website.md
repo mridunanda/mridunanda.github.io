@@ -10,7 +10,9 @@ I started by creating a github repository (make it public and let the repo name 
 You can see your website live right after creaing the repo (just visit the url that you just created in the repo name).
 The next step is to set up jekyll on your local machine. To do so, I followed this tutorial: [Building a static website with Jekyll and Github][programming-historian]
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Two things to note in the insallation steps from the above tutorial:
+1) MacOS has ruby pre-installed. The command `brew install ruby` will install the newest version of ruby on your local machine. However, you have to alert your machine to look in this new directory, instead of using the default version. To do so, add the appropriate lines (displayed upon installation) to your `~/.bash_profile` file. Once this is done, `gem install rubygems-update` will work as expected. 
+2) If you are running Movaje on MacOS, you first need to `sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /` before running `gem install jekyll`.
 
 Jekyll requires blog post files to be named according to the following format:
 
