@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating a .github.io Website"
 date:   2019-12-28 17:38:00 -0500
-tags: poop1
+tags: blog
 ---
 12/28/2019:
 In this post I will describe how I made this github website. I will update this post as I add more features to the site. 

@@ -22,6 +22,13 @@ layout: default
         </h3>
 		<p> <span style = "color:#808080; font-size:12pt" > {{ post.date | date: "%B %d, %Y, %l:%M %p" }} </span> </p>
 	    {{ post.excerpt | strip_html | truncatewords: 50 }}
+<span>[
+  {% for tag in post.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+  {% endfor %}
+]</span>
+
 		{% if forloop.last == false %}
 		<hr>
 		{% endif %}
