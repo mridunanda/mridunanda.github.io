@@ -1,6 +1,6 @@
 ---
 layout: techblog 
-title:
+title: Tech
 permalink: /tech 
 ---
 

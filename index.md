@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+hide_header_link : true
 permalink: 
 ---
 

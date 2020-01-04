@@ -2,5 +2,5 @@
 layout: tagpage
 title: "Tag: blog"
 tag: blog
-robots: noindex
+hide_header_link : true
 ---
