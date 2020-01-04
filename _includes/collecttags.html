@@ -1,0 +1,31 @@
+{{site.tags}}
+{% for post in site.categories.techblog %}
+{% for tag in post.tags %}
+{{tag}}
+{% endfor %}
+{% endfor %}
+
+{% assign rawtags = "" %}
+{% for post in site.categories.techblog %}
+  <p> iter posts </p>
+  {{site.tags}}
+  {% assign ttags = post.tags | join:'|' | append:'|' %}
+  {{ttags}}
+  {% assign rawtags = rawtags | append:ttags %}
+  {{rawtags}}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+{{rawtags}}
+
+{% assign site.tags = "" %}
+{{site.tags}}
+{% for tag in rawtags %}
+  {% if tag != "" %}
+    {% if tags == "" %}
+      {% assign tags = tag | split:'|' %}
+    {% endif %}
+    {% unless tags contains tag %}
+      {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
