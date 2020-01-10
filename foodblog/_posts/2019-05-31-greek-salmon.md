@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Creating a .github.io Website 1"
-date:   2019-12-28 17:38:00 -0500
+title:  "Greek Salmon"
+date:   2019-05-31 
 tags: food
-feature-img: "/assets/profilepic.PNG"
+feature-img: "/assets/greeksalmon.png"
 ---
 12/28/2019:
 In this post I will describe how I made this github website. I will update this post as I add more features to the site. 
@@ -32,8 +32,3 @@ print_hi('Tom')
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[programming-historian]: https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/

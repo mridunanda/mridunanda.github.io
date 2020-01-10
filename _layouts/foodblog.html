@@ -2,11 +2,11 @@
 layout: default
 ---
 
+<h2 class="post-list-heading">{{ page.list_title | default: "Food Blog" }}</h2>
 <div class="gallery">
 	{% for post in site.categories.foodblog %}
 		<div class="item">
 			<a class="item-inner" href="{{ post.url }}">
-				<p> hi mridu </p>
 	  			{% if post.feature-img %}
     		  	  <div class="item-image"><img src="{{ post.feature-img }}"></div>
   	  			{% endif %}
