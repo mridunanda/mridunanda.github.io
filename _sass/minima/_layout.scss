@@ -206,7 +206,13 @@
   @include relative-font-size(1.5);
 }
 
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 25%;
+}
 
 /**
  * Posts

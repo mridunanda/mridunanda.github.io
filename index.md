@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about_page
 title: About
 hide_header_link : true
 permalink: 
