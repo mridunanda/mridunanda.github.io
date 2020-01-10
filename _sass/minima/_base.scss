@@ -169,6 +169,12 @@ pre {
   }
 }
 
+#social {
+  float: left;
+  width: 200px;
+  height: 300px;
+  background-color: #F09A9D;
+}
 
 
 /**
@@ -189,6 +195,13 @@ pre {
     padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
   }
+	#column1 {
+		border-top: solid 75px transparent;
+		margin-top: $spacing-unit 0;
+		width: 300px;
+		height: 400px;
+		float: left;
+	}
 }
 
 
