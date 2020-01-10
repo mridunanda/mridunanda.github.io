@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "Creating a .github.io Website"
+title:  "Creating a .github.io Website 1"
 date:   2019-12-28 17:38:00 -0500
+tags: food
+feature-img: "/assets/profilepic.PNG"
 ---
 12/28/2019:
 In this post I will describe how I made this github website. I will update this post as I add more features to the site. 
