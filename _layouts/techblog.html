@@ -6,7 +6,7 @@ layout: default
   {{ content }}
 
   {%- if site.categories.techblog.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Tech Blog" }}</h2>
+    <h2 class="post-list-heading">{{ page.title | default: "Tech Blog" }}</h2>
     <ul class="post-list">
       {%- for post in site.categories.techblog -%}
       <li>

@@ -1,5 +1,5 @@
 ---
-layout: default 
+layout: techblog 
 title: Projects 
 permalink: /projects 
 ---
