@@ -299,3 +299,16 @@
     width: 280px;
   }
 }
+
+
+/**
+ * Columns
+ */
+.row {
+  display: flex;
+}
+
+.column {
+  margin: 16px 16px;
+  flex: 50%;
+}
