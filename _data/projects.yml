@@ -17,3 +17,11 @@
   description: >
     The purpose of this web-app is to recognize a number from 0-9. Users can draw the number in an input box on the website or upload a image of their number. Users can also help the network learn by giving feedback on correctness of our network’s guesses.
 
+- name: User Interface Design and Implementation of Velmex BiSlide Motor and EMD High Voltage Generator Control for X-Ray Diffraction System 
+  title: User Interface Design and Implementation of Velmex BiSlide Motor and EMD High Voltage Generator Control for X-Ray Diffraction System 
+  site: https://drive.google.com/file/d/1Es-vf4rygZNoEbcAIbcN6iUWH3j4Hbq4/view?usp=sharing 
+  author: Mridu Nanda, Anuj Kapadia 
+  software: LabView 
+  favorite: true
+  description: >
+    This project aimed to automate the x-ray diffraction scanning system by creating a comprehensive user interface through LabVIEW programming language. Serial communication was used in order to interface with different devices on a centralized LabVIEW program. Through this project, a complete and successful interface for Velmex BiSlide motors was created and significant progress was made towards interfacing the EMD high-voltage generator.
