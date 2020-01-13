@@ -24,3 +24,28 @@
     - Best to use a rubber spatual to beat batter. Otherwise get ready to make some arm muscles!
     - Remember more spices and less sugar!
     - Remember to make balls small.
+
+- name: Asian Salmon
+  intro: I was inspired to make these cookies while scrolling through my friend's instgram food blog. They looked like the perfect holiday cookies and I was not dissapointed! We ended up making two batches over the holidays. My brother and I had a lot of fun making them :-). 
+  site: https://www.cooksillustrated.com/recipes/146-soft-and-chewy-molasses-spice-cookies
+  ingredients: modified
+  replace: 
+    all spices: at least double amount
+    sugar: about half amount
+  instructions:
+    - Best to use a rubber spatual to beat batter. Otherwise get ready to make some arm muscles!
+    - Remember more spices and less sugar!
+    - Remember to make balls small.
+
+
+- name: Greek Salmon
+  intro: I was inspired to make these cookies while scrolling through my friend's instgram food blog. They looked like the perfect holiday cookies and I was not dissapointed! We ended up making two batches over the holidays. My brother and I had a lot of fun making them :-). 
+  site: https://www.cooksillustrated.com/recipes/146-soft-and-chewy-molasses-spice-cookies
+  ingredients: modified
+  replace: 
+    all spices: at least double amount
+    sugar: about half amount
+  instructions:
+    - Best to use a rubber spatual to beat batter. Otherwise get ready to make some arm muscles!
+    - Remember more spices and less sugar!
+    - Remember to make balls small.
