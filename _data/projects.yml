@@ -1,0 +1,19 @@
+- name: Quantum Noise Model Simulation Library 
+  title: Quantum Noise Model Simulation Library
+  source: TODO
+  site: https://docs.google.com/presentation/d/1DLMFYIVIffXbibo40z0dXexHa7KPFYup1fdzDrCRIe0/edit?usp=sharing 
+  author: Lucas Cassels, Mridu Nanda, Varun Tekur
+  software: PyQuil, Mathematica
+  favorite: true
+  description: >
+    PyQuil is one existing API that allows scientists to interface with quantum machines. However, as this API is still in its early stages, there is not much support for defining noisy quantum gates which are useful for simualtion. Our project developed a noise library interfaced with PyQuil and Mathematica to allow for a more user-friendly experience.
+
+- name: Handwriting Reader
+  title: Handwriting Reader 
+  source: https://github.com/ceolson/handwriting-reader
+  author: Mridu Nanda, Conlan Olson 
+  software: Python, Tensorflow 
+  favorite: true
+  description: >
+    The purpose of this web-app is to recognize a number from 0-9. Users can draw the number in an input box on the website or upload a image of their number. Users can also help the network learn by giving feedback on correctness of our network’s guesses.
+

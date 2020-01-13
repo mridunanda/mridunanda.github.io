@@ -312,3 +312,46 @@
   margin: 16px 16px;
   flex: 50%;
 }
+
+/**
+ * Buttons
+ */
+.button {
+  background-color: #FFFFF; 
+  border: 2px solid #1756AA;  
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  width: 35px
+}
+
+.button {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+
+.button:hover {
+  background-color: #1756AA;
+  color: white;
+}
+
+/**
+ * Cards
+ */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
+}
