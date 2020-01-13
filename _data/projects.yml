@@ -1,6 +1,6 @@
 - name: Quantum Noise Model Simulation Library 
   title: Quantum Noise Model Simulation Library
-  source: TODO
+  source: https://github.com/vtekur/QuantumNoiseModelSimLib
   site: https://docs.google.com/presentation/d/1DLMFYIVIffXbibo40z0dXexHa7KPFYup1fdzDrCRIe0/edit?usp=sharing 
   author: Lucas Cassels, Mridu Nanda, Varun Tekur
   software: PyQuil, Mathematica
