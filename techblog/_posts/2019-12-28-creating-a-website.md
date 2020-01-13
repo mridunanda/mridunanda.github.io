@@ -88,6 +88,7 @@ I modified several parts of the original minima theme using the above steps. For
 
 
 **TODO**
+- Link PDFs without google docs
 - Optimize image load times
 - Make website mobile friendly
 - Add pageinator for blog posts
