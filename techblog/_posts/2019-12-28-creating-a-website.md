@@ -32,9 +32,10 @@ In this post I will describe how I made this github website. I will update this 
 	  <li> <i>_layouts </i>: This folder also contains html templates. However, these templates are page specific (ie a template for the food blog). </li>
 	  <li> <i> _posts </i> This folder contains all the posts for the blog. Posts should be labeled by year-month-day-title (or as specified in the <i>_config.yml</i> file). In the case that you want a multi-blog website, create folders blog1 and blog2, each with their own <i>_/posts</i> folder. Then update the _posts folder accordingly. For more information for creating a multi-blog website look at the third asnwer in this post: <a href="https://stackoverflow.com/questions/14560687/multiple-blogs-in-single-jekyll-website">Multiple blogs in Jekyll Website</a></li>
 	  <li> <i> _sass </i> This folder will contain all the CSS style sheets for the html pages. </li>
-	  <li> <i> assets </i> (not shown in picture): place all images in this folder. </li>
+	  <li> <i> assets </i> (not shown in picture): place all images and js in this folder. </li>
 	  <li> <i> _site </i>: This folder will contain the html created by Jekyll. No need to touch this folder. </li>
 	  <li> <i> index.md </i>: This file located in the home folder will be the homepage for hte website. For other landing pages, (ex. food blog page) create a new folder (<i>/foodblog</i>) and create the index.md page inside (along with the <i>/_posts</i> folder if applicable). </li>
+	  <li> <i> _data </i> (not showin in picture): This folder is useful for containing entries that have similar fields repeated multiple times. For example, I stored my projects and recipes information in this folder. </li>
 	</ul>
   </div>
 </div>
@@ -85,6 +86,7 @@ I modified several parts of the original minima theme using the above steps. For
 - [Two Column Layout][w3-school] on this page (above)
 - [Left Aligning][interneting-is-hard] my profile picture on the homepage (inside the wrapper). 
 	- I used a hack method in order to [Remove Extra Space from the top of a CSS column][stackoverflow-css]
+- [Creating Photo Gallery][w3-gallery] for food blog
 
 
 **TODO**
@@ -103,3 +105,4 @@ I modified several parts of the original minima theme using the above steps. For
 [w3-school]:https://www.w3schools.com/howto/howto_css_two_columns.asp
 [interneting-is-hard]:https://internetingishard.com/html-and-css/floats/
 [stackoverflow-css]:https://stackoverflow.com/questions/36392351/remove-extra-space-from-top-of-css-columns-in-chrome
+[w3-gallery]:https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp

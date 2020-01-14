@@ -24,28 +24,27 @@
     - Best to use a rubber spatual to beat batter. Otherwise get ready to make some arm muscles!
     - Remember more spices and less sugar!
     - Remember to make balls small.
+  images: 
+    - /assets/ginger-snap-img1.PNG
+    - /assets/ginger-snap-img2.PNG
+    - /assets/ginger-snap-img3.PNG
+    - /assets/ginger-snap-img4.PNG
+    - /assets/ginger-snap-img5.PNG
+    - /assets/ginger-snap-img6.PNG
+    - /assets/ginger-snap-img7.PNG
 
 - name: Asian Salmon
-  intro: I was inspired to make these cookies while scrolling through my friend's instgram food blog. They looked like the perfect holiday cookies and I was not dissapointed! We ended up making two batches over the holidays. My brother and I had a lot of fun making them :-). 
-  site: https://www.cooksillustrated.com/recipes/146-soft-and-chewy-molasses-spice-cookies
-  ingredients: modified
-  replace: 
-    all spices: at least double amount
-    sugar: about half amount
+  intro: I found this recipe while looking for a new way to make salmon. I picked this recipe because it seemed like one of the healthier options from those available. It did not dissapoint. 
+  site: https://www.wellplated.com/soy-ginger-salmon/  
+  ingredients:
   instructions:
-    - Best to use a rubber spatual to beat batter. Otherwise get ready to make some arm muscles!
-    - Remember more spices and less sugar!
-    - Remember to make balls small.
+    - Follow the exact directions on the website to get a really nice sear on the fish. The skin looked so pretty and for the first time I ate the fish skin as well. 
 
 
 - name: Greek Salmon
-  intro: I was inspired to make these cookies while scrolling through my friend's instgram food blog. They looked like the perfect holiday cookies and I was not dissapointed! We ended up making two batches over the holidays. My brother and I had a lot of fun making them :-). 
-  site: https://www.cooksillustrated.com/recipes/146-soft-and-chewy-molasses-spice-cookies
-  ingredients: modified
+  intro: A friend helped me find this recipe when I was super hungry and looking to eat something new and tasty. This salmon was pretty easy to make, and my favorite part was the pickeled onions (result of baking the onions with lemon in the fish tray). 
+  site: https://www.delish.com/cooking/recipe-ideas/a26103199/greek-salmon-recipe/ 
+  ingredients: modified 
   replace: 
-    all spices: at least double amount
-    sugar: about half amount
+  without: some of the spices
   instructions:
-    - Best to use a rubber spatual to beat batter. Otherwise get ready to make some arm muscles!
-    - Remember more spices and less sugar!
-    - Remember to make balls small.

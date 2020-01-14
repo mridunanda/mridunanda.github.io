@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: testing"
-tag: testing
+title: "Tag: breakfast"
+tag: breakfast
 hide_header_link : true
 ---
