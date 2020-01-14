@@ -365,12 +365,14 @@ img {
 }
 
 /* Position the image container (needed to position the left and right arrows) */
-.container {
+.gallerycontainer {
   position: relative;
 }
 
 /* Hide the images by default */
 .mySlides {
+  height: 550px;
+  width: 1080px;
   display: none;
 }
 
@@ -432,7 +434,7 @@ img {
 }
 
 /* Six columns side by side */
-.column {
+.gallerycolumn {
   float: left;
   width: 16.66%;
 }
@@ -447,7 +449,7 @@ img {
   opacity: 1;
 }
 
-div.column>img {
+div.gallerycolumn>img {
     max-height: 150px;
     max-width: 150px;
 }
@@ -456,7 +458,6 @@ div.column>img {
 div.mySlides>img {
     max-height: 500px;
     max-width: 500px;
-	object-fit: cover;
 	display:block;
 	margin:auto;
 }

@@ -22,7 +22,7 @@ In this post I will describe how I made this github website. I will update this 
 **File Layout**
 <div class="row">
   <div class="column">
-	<img src="/assets/layout.png">
+	<img src="/assets/layout.png" style="width:100%" >
   </div>
   <div class="column">
 	<ul> 
@@ -88,8 +88,10 @@ I modified several parts of the original minima theme using the above steps. For
 	- I used a hack method in order to [Remove Extra Space from the top of a CSS column][stackoverflow-css]
 - [Creating Photo Gallery][w3-gallery] for food blog
 
+<b><i> A painful lesson: <b><i>
 
 **TODO**
+- Clean up CSS
 - Link PDFs without google docs
 - Optimize image load times
 - Make website mobile friendly

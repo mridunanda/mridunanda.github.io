@@ -72,7 +72,7 @@ You can find the <a href="{{ recipe.site }}">Original Recipe</a> here. </p>
 
     {% if recipe.images %}
 <br>
-<div class="container">
+<div class="gallerycontainer">
 	  {% for image in recipe.images %}
   <div class="mySlides">
       <img src="{{ image }}" style="width:100%">
@@ -91,7 +91,7 @@ You can find the <a href="{{ recipe.site }}">Original Recipe</a> here. </p>
 	  {% assign counter = 1 %}
   <div class="row">
 	  {% for image in recipe.images %}
-    <div class="column">
+    <div class="gallerycolumn">
       <img class="demo cursor" src="{{ image }}" style="width:100%" onclick="currentSlide({{ counter }})" alt="{{ counter }} / {{ recipe.images.size }} ">
     </div>
 	    {% assign counter = counter | plus:1 %}
