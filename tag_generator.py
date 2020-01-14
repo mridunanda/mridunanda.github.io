@@ -4,7 +4,7 @@ import glob
 import os
 
 #post_dir = input("Enter post directory: ")
-post_dir = 'foodblog/_posts/' 
+post_dir = 'techblog/_posts/' 
 tag_dir = 'tag/'
 
 filenames = glob.glob(post_dir + '*md')
@@ -29,9 +29,6 @@ for filename in filenames:
     f.close()
 total_tags = set(total_tags)
 
-old_tags = glob.glob(tag_dir + '*.md')
-for tag in old_tags:
-    os.remove(tag)
     
 if not os.path.exists(tag_dir):
     os.makedirs(tag_dir)
