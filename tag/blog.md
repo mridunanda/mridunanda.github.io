@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: avocado"
-tag: avocado
+title: "Tag: blog"
+tag: blog
 hide_header_link : true
 ---

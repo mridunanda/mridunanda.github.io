@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: breakfast"
-tag: breakfast
+title: "Tag: jekyll"
+tag: jekyll
 hide_header_link : true
 ---
