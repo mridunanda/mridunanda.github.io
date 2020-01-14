@@ -88,7 +88,19 @@ I modified several parts of the original minima theme using the above steps. For
 	- I used a hack method in order to [Remove Extra Space from the top of a CSS column][stackoverflow-css]
 - [Creating Photo Gallery][w3-gallery] for food blog
 
-<b><i> A painful lesson: <b><i>
+<i> A painful lesson: </i> <span style="color:red"><i> Your browser caches the CSS. Therefore if you update your CSS and view it on Github, it will still look like the old template. This might make you feel a lot crazy and a bit sad. Don't fret. Just clear your brower cookies and cache and the new CSS should be loaded. All is well again. Godspeed. </i></span>
+
+**Liquid and _data folder**
+
+Liquid is a handy templating language which makes life so much easier. Examples of this site making use of liquid can be found in the index.md file inside the projects folder and the foodpost.html file in the _layout folder. 
+
+I did learn one <span style="color:red"><i>painful lesson</i></span> with Liquid however... That is the increment tag. 
+You see, I, a simple person, wanted to create a nice template for future posts.
+To do so, I needed to make a for loop, to enumerate pictures inside of my gallery. 
+However, this is where I fell into the trap of the <span style="color:red"><i><b> evil </b></i></span> increment tag!!. 
+<u>Note: the increment tag creates a new reference to the variable, initialized to 0 and then increments that value </u>.
+[Read this documentation][shopify] and then [This workaround][stackoverflow-liquid].
+peace and love.
 
 **TODO**
 - Clean up CSS
@@ -108,3 +120,5 @@ I modified several parts of the original minima theme using the above steps. For
 [interneting-is-hard]:https://internetingishard.com/html-and-css/floats/
 [stackoverflow-css]:https://stackoverflow.com/questions/36392351/remove-extra-space-from-top-of-css-columns-in-chrome
 [w3-gallery]:https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp
+[shopify]:https://shopify.github.io/liquid/tags/variable/
+[stackoverflow-liquid]:https://stackoverflow.com/questions/48046411/how-to-increment-the-counter-inside-a-liquid-for-loop

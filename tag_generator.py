@@ -4,7 +4,7 @@ import glob
 import os
 
 #post_dir = input("Enter post directory: ")
-post_dir = 'techblog/_posts/' 
+post_dir = 'foodblog/_posts/' 
 tag_dir = 'tag/'
 
 filenames = glob.glob(post_dir + '*md')
