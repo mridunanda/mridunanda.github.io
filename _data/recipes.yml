@@ -51,5 +51,22 @@
 
 - name: Alfredo Pasta
   intro: My brother and I were super hungry when we made this. I was also weirdly craving dhall pasta... I guess it makes sense, since we were just sent home because of CORONA (ANGRY FACE). We ate this with Papa Murphy's pizza, so it was was carb overload, and we fell asleep right after lolololol. I wonder if anyone will ever read this other than me. 
-  instructions: Lol. I can't find the website. I have failed. Anyways, this recipe is pretty straightforward, so I trust my future self to JUST GOOGLE IT.
+  site: Lol. I can't find the website. I have failed. Anyways, this recipe is pretty straightforward, so I trust my future self to JUST GOOGLE IT.
+
+- name: Szechuan Noodles
+  intro: I was very hungry and wanted to eat something new. The plan is now to make a new dish every Friday while I am hone. Let's see how many Fridya's this lasts.
+  site: https://www.halfbakedharvest.com/better-than-takeout-szechuan-noodles-with-sesame-chili-oil/
+  ingredients: modified
+  replace: 
+    ground chicken: regular chicken cut into small pieces
+  instructions: 
+    - Use less soy sauce next time (I used 1/2 cup according to the recipe)
+    - Maybe add more chicken next tine
+    - Get wider noodles!!!!!
+    - Idk why our dressing didn't come out as dark as the one pictured on the original recipe.. smfh.
+  images:
+    - /assets/szechuan-noodles_2.png
+    - /assets/szechuan-noodles_3.png
+    - /assets/szechuan-noodles_4.png
+
 
