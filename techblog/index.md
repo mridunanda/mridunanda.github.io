@@ -1,6 +1,6 @@
 ---
 layout: techblog 
-title: Tech Blog
-permalink: /tech 
+title: Blog
+permalink: /blog 
 ---
 
