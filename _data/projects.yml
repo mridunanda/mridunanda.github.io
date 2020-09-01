@@ -1,3 +1,13 @@
+- name: memery, Analyzing heap memory for fun and profit
+  title: memery, Analyzing heap memory for fun and profit
+  source: https://github.com/tothepowerofn/memery
+  site: https://mridunanda.github.io/assets/memery.pdf
+  author: Nathan Contreras, Mridu Nanda, Noah Singer
+  software: C++, x86-64
+  favorite: true
+  description: >
+     Memory reading vulnerabilities allow attackers to siphon sensitive data from a remote victim process, but time constraints and throughput limitations may necessitate a method to efficiently identify memory of interest. Toward this end, we design MEMERY, a blackbox heap analysis algorithm that extracts information about the high-level program constructs of an executable with a memory read vulnerability. MEMERY follows chains of pointers to reliably detect both singly- and doubly-linked data structures (and any looping within them) and offers insights about the types of information stored in the data structures (including pointers to functions and character strings). Besides singly- and doubly-linked data structures, MEMERY’s analysis can be used as a foundation for detecting many other chained data structures.
+
 - name: Quantum Noise Model Simulation Library 
   title: Quantum Noise Model Simulation Library
   source: https://github.com/vtekur/QuantumNoiseModelSimLib
