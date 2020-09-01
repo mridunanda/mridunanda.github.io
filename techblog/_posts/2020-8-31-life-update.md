@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Creating a .github.io Website"
-date:   2019-12-28 17:38:00 -0500
-tags: blog jekyll 
+title:  "Life update part 1"
+date:   2020-8-31 17:38:00 -0500
+tags: blog life 
 ---
 
 Wow. I really have not been on here for a while. I'm going to try to be more consistent with my updates including personal updates, school updates, and cool things I learn about. Lol, we will see how long this lasts. Anyways there is alot of material to cover, so let's get started.
