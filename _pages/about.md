@@ -8,11 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-My name is Mridu and I am a first year CS PhD student advised by [Mike Reiter](https://reitermk.github.io/) at Duke University. I am broadly interested in systems security research and my current work is focused on passwords. 
+My name is Mridu and I am a fourth year CS PhD student advised by [Mike Reiter](https://reitermk.github.io/) at Duke University. I am broadly interested in systems security research and my current work is focused on passwords. 
 
 Before Duke, I received my bachelor's degree in computer science (and minor in math) from Harvard University, where I worked with [James Mickens](https://mickens.seas.harvard.edu/).
 
-Here is my [CV](files/CV.pdf) and my [contact info](#contact).
 
 Research
 ------
