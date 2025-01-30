@@ -163,6 +163,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true  # Ensures each project gets its own page
+    permalink: /projects/:path/
 
 
 # Defaults
