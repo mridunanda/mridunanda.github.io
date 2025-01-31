@@ -1,4 +1,4 @@
 # main links links
-# main:
-#   - title: "Projects"
-#     url: /projects/
+main:
+  - title: "Projects"
+    url: /projects/
