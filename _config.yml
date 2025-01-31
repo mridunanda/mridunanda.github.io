@@ -32,7 +32,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "master"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -163,9 +163,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  projects:
-    output: true  # Ensures each project gets its own page
-    permalink: /projects/:path/
+  # projects:
+  #   output: false 
+  #   permalink: /projects/:path/
 
 
 # Defaults
@@ -223,6 +223,13 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # - scope:
+  #     path: ""
+  #     type: projects
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
 
 # Sass/SCSS
 sass:
