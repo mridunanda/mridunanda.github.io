@@ -11,7 +11,7 @@ The following is a list of unpublished but substantial projects I worked on duri
 ### {{ project.title }}
 {{ project.description }}
 
-See {% if project.paper_link %}[[Paper]]({{ project.paper_link }}){% endif %}{% if project.repo_link %} [[Code]]({{ project.repo_link }}){% endif %}
+{{project.completion}} | See {% if project.paper_link %}[[Paper]]({{ project.paper_link }}){% endif %}{% if project.repo_link %} [[Code]]({{ project.repo_link }}){% endif %}
 
 ---
 {% endfor %}
