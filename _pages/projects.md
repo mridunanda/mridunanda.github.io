@@ -5,15 +5,13 @@ layout: single
 author_profile: true
 ---
 
-The following is a list of unpublished but substantial projects I worked on during my undergraduate studies. I hope to further develop some of these ideas in the future. In the meantime, feel free to explore the projects listed below.
-
+The following is a list of unpublished but substantial projects I worked on during my undergraduate studies. I hope to further develop some of these ideas in the future.
 
 {% for project in site.projects %}
 ### {{ project.title }}
 {{ project.description }}
 
-- [Paper Link]({{ project.paper_link }})
-- [Code Repository]({{ project.repo_link }})
+See {% if project.paper_link %}[[Paper]]({{ project.paper_link }}){% endif %}{% if project.repo_link %} [[Code]]({{ project.repo_link }}){% endif %}
 
 ---
 {% endfor %}
