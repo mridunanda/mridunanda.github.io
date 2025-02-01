@@ -10,7 +10,7 @@ redirect_from:
 
 My name is Mridu, and I am a fourth year CS PhD student advised by [Mike Reiter](https://reitermk.github.io/) at Duke University. I study cybersecurity with a focus in mechanism design and systems security. My current research examines ways to incentivize rational, selfish agents to exchange security favors to collectively detect cyber threats, like credential database breaches. My work straddles the theoretical, like game theory and model checking, and practical system design to understand how collaborative defense can enhance resilience against evolving attacks.
 
-<span style="color: red;">I am currently looking for research or industry for Summer 2025 in the areas of systems security, threat analysis, or mechanism design. Feel free to reach out!</span>
+<span style="color: red;">I am currently looking for research or industry internships for Summer 2025 in the areas of systems security, threat analysis, or mechanism design. Feel free to reach out!</span>
 
 Before Duke, I received my bachelor's degree in computer science (and minor in math) from Harvard University. During this time, I worked on a research project advised by [James Mickens](https://mickens.seas.harvard.edu/) to splice user data out of multi-user applications for easier GDPR compliance. I also contributed to several system security projects under the guidance of James Mickens and [Eddie Kohler](https://www.read.seas.harvard.edu/~kohler/). See my project page for more details!
 
