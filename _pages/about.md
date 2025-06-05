@@ -19,7 +19,7 @@ design to understand how collaborative defense can enhance resilience
 against evolving attacks. This approach is illustrated in my recent
 work:
 
-- **[Incentivizing Collaborative Breach Detection](https://arxiv.org/abs/your-paper-id)**<br/>
+- **Incentivizing Collaborative Breach Detection**<br/>
 arXiv preprint, 2025 <br/>
 Mridu Nanda, Michael K. Reiter.<br/>
 
